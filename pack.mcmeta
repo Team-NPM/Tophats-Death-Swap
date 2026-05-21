@@ -1,6 +1,32 @@
 {
   "pack": {
-    "description": "Minecraft Death Swap",
+    "description": [
+      {
+        "text": "Highly configurable Death Swap\nby ",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "The_TophatMan",
+        "color": "#00ff00",
+        "bold": true
+      },
+      {
+        "text": " (",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "twitch.tv/The__TophatMan",
+        "color": "#9146FF",
+        "bold": false
+      },
+      {
+        "text": ")",
+        "color": "white",
+        "bold": false
+      }
+    ]
     "min_format": [101, 1]
   }
 }
