@@ -53,7 +53,7 @@ Death Swap can be installed multiple ways. The simplest is through Modrinth, whi
 <h2>🎛 Running</h2>
 
 <p>
-To configure Death Swap, run <code>/function config:deathswap</code> or <code>/function deathswap:.config</code> to open the configuration menu. To begin a game, run <code>/function deathswap:.begin</code>
+To configure Death Swap, run <code>/function config:deathswap</code> or <code>/function deathswap:.config</code> to open the configuration menu. To begin a game, run <code>/function deathswap:.begin</code>.
 </p>
 <img src="https://cdn.modrinth.com/data/1y3FpyI2/images/8f886f73b9804db36a2cfd9cd5afc706101cc36d.png"/>
 <ul>
