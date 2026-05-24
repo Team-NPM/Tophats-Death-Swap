@@ -19,6 +19,9 @@
 # Timer Setting
     $tellraw @s [{text: "Timer View: [", color: dark_gray},{text: "$(timer)", color: $(timercolor), bold: true, click_event: {action: "run_command", command: "/function deathswap:$(timerfunction)"}, hover_event: {action: "show_text", value: "How players see how much time is left until the next swap (vague gives < values"}},{text: "]", color: dark_gray, bold: false}]
 
+# Swap Grace Setting
+    $tellraw @s [{text: "Swap Grace: [", color: dark_gray}, {text: "$(swapgrace)", color: $(swapgracecolor), bold: true, click_event: {action: "run_command", command: "/function deathswap:$(swapgracefunction)"}, hover_event: {action: "show_text", value: "If players should receive slow falling and fire resistance for 5 seconds after swapping to prevent laggy players from dying before they can see and to prevent fall/lava traps"}}, {text: "]", color: "dark_gray", bold: false}]
+
 # Separator
     tellraw @s {text: ""}
 
