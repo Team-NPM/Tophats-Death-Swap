@@ -12,5 +12,8 @@
     execute if score DeathSwap.Unswapped DeathSwap matches 2.. run function deathswap:swap/swapplayers
     execute as @r[tag=DeathSwap.PlayerToSwap] run function deathswap:swap/lastplayerswap with storage deathswap:data
 
+# Give effects in case of swap grace
+    function deathswap:swap/grace
+
 # Randomize time again
     function deathswap:runtime/randomizetime with storage deathswap:data

@@ -4,6 +4,7 @@
     function deathswap:config/enablegrace
     function deathswap:config/resetadvancements
     function deathswap:config/timervague
+    function deathswap:config/swapgrace0
     scoreboard players set DeathSwap.MinTime DeathSwap 180
     scoreboard players set DeathSwap.MaxTime DeathSwap 420
     scoreboard players set DeathSwap.MinDistance DeathSwap 512
